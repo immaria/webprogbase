@@ -1,0 +1,117 @@
+body {
+    background:url("../images/background1.jpg");
+    background-size: 100%;
+   /* font-size: 16px;*/
+}
+
+.page{
+    width: 1200px;
+    margin: auto;
+}
+
+.page>div{
+    margin: 20px;
+    padding: 10px;
+}
+
+.header {
+   text-align: center;
+   display: flex;
+}
+
+.header img#logo{
+  height: 220px;
+  width: 220px;
+}
+
+.header img#questions{
+    height: 220px;
+    width: 350px;
+  }
+
+.content>.about{
+    color: azure;
+    font-size: 55px;
+}
+
+.header h1{
+    display: inline-block;
+    color: azure;
+    font-size: 55px;
+    margin: auto;
+}
+
+.page>.menu{
+    float:left;
+    color: rgb(99, 120, 151);
+    font-size: 20px; 
+}
+a { color:rgb(99, 120, 151); text-decoration:none;}
+
+.page>.content{
+    width: 70%;
+    float: right;
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+}
+.content table{
+	width:100%; 
+	border-collapse:collapse;
+}
+
+.content ul {
+    text-align: left;
+	margin-left: 220px;
+}
+.content li{
+    text-align: left;
+	margin-bottom: 20px;
+}
+
+.content img#ava{
+    height: 300px;
+    width: 300px;
+    float: left;
+  }
+
+.content img#chord{
+    height: 270px;
+    width: 220px;
+    float: left;
+  }
+
+.isActive {
+    font-size: 22px;
+    color:  rgb(255, 72, 0);
+}
+
+
+/*
+.content key{
+    Key
+
+x = don't play string
+o = play open string
+If the same fingering appears for more than one string, place the finger flat on the fingerboard as a 'bar', so all the strings can sound.
+}*/
+.poster{
+    position:relative;
+    height:2px;
+    width:1px;
+}
+
+.descr{
+    display:none;
+    height:1px;
+    width: 1px;
+}
+
+.descr img#chords{
+    height: 200px;
+    width: 180px;
+    float: top;
+}
+.content:hover .descr{
+    display:block;
+}
